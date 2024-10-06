@@ -1,0 +1,14 @@
+{
+  "name": "projeto-demoblaze",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "execute": "robot --argumentfile args.txt tests/"
+  },
+  "author": "Eder Cuer",
+  "license": "ISC"
+}
