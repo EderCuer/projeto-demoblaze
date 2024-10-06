@@ -2,6 +2,7 @@
 
 Library    SeleniumLibrary
 Library    ../libraries/FakerLibrary.py
+Library    ../libraries/BrowserLibrary.py
 
 Resource    ../resources/conta/conta.resource
 Resource    ../resources/carrinho/carrinho.resource
@@ -18,7 +19,8 @@ ${URL}  https://www.demoblaze.com/
 Iniciar teste
     [Arguments]    ${URL}
 
-    Open Browser  ${URL}  chrome
+    ${driver}    Open Chrome Browser
+    Go To        ${URL}
     Maximize Browser Window
 
 Finalizar teste

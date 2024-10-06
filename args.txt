@@ -1,3 +1,1 @@
 --outputdir ./report
---variable CHROME_OPTIONS:--headless --no-sandbox --disable-dev-shm-usage --disable-gpu
---variable BROWSER:chrome
